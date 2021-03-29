@@ -24,8 +24,8 @@ const Experience = () => {
                     <h5>Senior Software Engineer( Capgemini, Pune, India )</h5>
                     <p className="experiencepara">Implemented user interface guidelines and standards throughout the development and maintenance of the website using HTML5, ReactJs, CSS, AJAX, JavaScript, and jQuery.</p>
                     <p>Involved in all phases of Software Development Life Cycle and in Analysis, designed applications using Agile methodology.</p>
-                    <p>Implemented Web-Services to integrate between different applications (internal and third party components using RESTful services using Jersey.)</p>
-                    <p>Created and injected spring services, spring controllers and DAOs to achieve dependency injection and to wire objects of business classes. Used DAO Factory and Value object design patterns to organize and integrate the Java objects.</p>
+                    <p>Implemented Web-Services to integrate between different applications (internal and third party components using RESTful services.)</p>
+                    <p>Collaborated with onsite team to develop automation scripts for daily check and report generation which reduced 3.5 hrs. of manual work.</p>
                     <p>Managed and ensured accuracy on the Confluence and Jira platforms by assuring all on-going changes were appropriately reflected. </p>
                 </div>
             </div>
