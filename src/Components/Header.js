@@ -1,12 +1,12 @@
 import React from "react"
-import Typed from "react-typed";
+import { ReactTyped } from 'react-typed';
 import {Link} from "react-scroll";
 const Header = () => {
     return (
     <div id="Home"className= "header-wraper"> 
     <div className= "main-info">
         <h1>Hi, I am<br/>Nikhil Surya Peteti</h1>
-        <Typed
+        <ReactTyped
         className = "typed-text"
         strings = {["Software Engineer","Web Developer", "Android Developer" ]}
         typeSpeed={40}

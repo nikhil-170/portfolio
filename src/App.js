@@ -1,6 +1,7 @@
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
-import Particles from "react-particles-js";
+import Particles from 'react-tsparticles';
+import { loadFull } from 'tsparticles';
 import Navbar from "./Components/navbar.js";
 import Header from "./Components/Header";
 import AboutMe from "./Components/aboutMe";

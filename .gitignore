@@ -21,3 +21,9 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+# editor
+.idea/
+
+# this project uses npm/package-lock
+yarn.lock
