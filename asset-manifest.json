@@ -1,31 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7096e15c.chunk.css",
-    "main.js": "/portfolio/static/js/main.436e350e.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.436e350e.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.c0d7b84f.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.c0d7b84f.js.map",
-    "static/css/2.a894a7ba.chunk.css": "/portfolio/static/css/2.a894a7ba.chunk.css",
-    "static/js/2.b94503a8.chunk.js": "/portfolio/static/js/2.b94503a8.chunk.js",
-    "static/js/2.b94503a8.chunk.js.map": "/portfolio/static/js/2.b94503a8.chunk.js.map",
-    "static/js/3.90ca9f6c.chunk.js": "/portfolio/static/js/3.90ca9f6c.chunk.js",
-    "static/js/3.90ca9f6c.chunk.js.map": "/portfolio/static/js/3.90ca9f6c.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.56b9ff04.css",
+    "main.js": "/portfolio/static/js/main.15faabaa.js",
+    "static/js/453.24d97791.chunk.js": "/portfolio/static/js/453.24d97791.chunk.js",
+    "static/media/nikhilPhoto.jpg": "/portfolio/static/media/nikhilPhoto.ec15cdae3d3cb2de5601.jpg",
+    "static/media/movieRecommendation.jpg": "/portfolio/static/media/movieRecommendation.cb119336784156a5b2ba.jpg",
+    "static/media/dreamteam.jpg": "/portfolio/static/media/dreamteam.bc04be34cd1084cf2c2b.jpg",
+    "static/media/gosport.jpg": "/portfolio/static/media/gosport.f8495cea637707c0ad8f.jpg",
+    "static/media/altumcode-dMUt0X3f59Q-unsplash.jpg": "/portfolio/static/media/altumcode-dMUt0X3f59Q-unsplash.ea32b5ab7ffc78454ce0.jpg",
+    "static/media/spotify.jpg": "/portfolio/static/media/spotify.6566757ee3e203b4a691.jpg",
     "index.html": "/portfolio/index.html",
-    "static/css/2.a894a7ba.chunk.css.map": "/portfolio/static/css/2.a894a7ba.chunk.css.map",
-    "static/css/main.7096e15c.chunk.css.map": "/portfolio/static/css/main.7096e15c.chunk.css.map",
-    "static/js/2.b94503a8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b94503a8.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/portfolio/static/media/altumcode-dMUt0X3f59Q-unsplash.ea32b5ab.jpg",
-    "static/media/dreamteam.bc04be34.jpg": "/portfolio/static/media/dreamteam.bc04be34.jpg",
-    "static/media/gosport.f8495cea.jpg": "/portfolio/static/media/gosport.f8495cea.jpg",
-    "static/media/movieRecommendation.cb119336.jpg": "/portfolio/static/media/movieRecommendation.cb119336.jpg",
-    "static/media/nikhilPhoto.ec15cdae.jpg": "/portfolio/static/media/nikhilPhoto.ec15cdae.jpg",
-    "static/media/spotify.6566757e.jpg": "/portfolio/static/media/spotify.6566757e.jpg"
+    "main.56b9ff04.css.map": "/portfolio/static/css/main.56b9ff04.css.map",
+    "main.15faabaa.js.map": "/portfolio/static/js/main.15faabaa.js.map",
+    "453.24d97791.chunk.js.map": "/portfolio/static/js/453.24d97791.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.c0d7b84f.js",
-    "static/css/2.a894a7ba.chunk.css",
-    "static/js/2.b94503a8.chunk.js",
-    "static/css/main.7096e15c.chunk.css",
-    "static/js/main.436e350e.chunk.js"
+    "static/css/main.56b9ff04.css",
+    "static/js/main.15faabaa.js"
   ]
 }
