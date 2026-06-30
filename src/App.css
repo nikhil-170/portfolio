@@ -157,6 +157,11 @@ nav ul li{
 
 /******************** About Me ***************************/
 
+.about-section{
+  padding-top: 3rem;
+  padding-bottom: 1rem;
+}
+
 .photo-wrap{
   display: flex;
   justify-content: center;
@@ -169,7 +174,8 @@ nav ul li{
   border-radius:50%;
   padding: .3rem;
   border: 1px solid green;
-  margin-top: 4.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 0;
 }
 
 .aboutMeHeading{
@@ -183,7 +189,7 @@ nav ul li{
   text-align: justify;
   font-weight: 900;
   font-size: 1.5rem;
-  
+  margin-bottom: 0;
 }
 
 
@@ -216,8 +222,9 @@ nav ul li{
 
 .services p{
   font-weight: 500;
-  font-size:20px;
+  font-size:18px;
   text-align:inherit;
+  line-height: 1.35;
 }
 
 .services h4{
@@ -246,7 +253,7 @@ nav ul li{
   transform: translate(-50%, -50%);
 }
 .services .box{
-  height: 16rem;
+  min-height: 21rem;
   border-bottom: 5px solid var(--electricblue);
   padding: 0.625rem;
   margin-bottom: 1.875rem;
@@ -328,11 +335,31 @@ nav ul li{
   z-index: 1;
 }
 
+.total-experience-marker{
+  border-color: #f89f1b;
+  background: #101018;
+}
+
 .timeline-content{
   width: 95%;
   padding: 0.9375rem;
   color: var(--darkgrey);
   direction: ltr;
+}
+
+.timeline-summary-block .timeline-content{
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.total-experience-content h3,
+.total-experience-content h5{
+  margin: 0;
+}
+
+.total-experience-content h5{
+  color: var(--primaryblack);
+  font-weight: 900;
 }
 
 .timeline-content h3 {
@@ -388,24 +415,40 @@ nav ul li{
 
 .portfolio-wrapper h1{
   color: darkcyan;
+  margin-bottom: 2rem;
+}
+
+.image-box-wrapper{
+  display: grid;
+  grid-template-columns: repeat(4, 15rem);
+  justify-content: center;
+  align-items: start;
+  column-gap: 2rem;
+  row-gap: 2rem;
 }
 .paraforprojects{
   color: #000000;
   text-transform: uppercase;
   text-align: center;
   font-weight: 500;
-  padding: 0.25rem;
+  padding: 0.45rem 0 0;
+  margin: 0;
 }
 
 .portfolio-image{
   width: 15rem;
+  height: 8.5rem;
+  object-fit: cover;
   border: 1px solid var(--electricblue);
   padding: 0 0.25rem;
+  display: block;
 }
 
 .portfolio-image-box{
   position: relative;
-  margin: 1rem;
+  width: 15rem;
+  margin: 0;
+  cursor: pointer;
 }
 
 .popuppara{
@@ -421,6 +464,7 @@ nav ul li{
   width: 15rem;
   height: 8.5rem;
   top: 0;
+  left: 0;
   border: 1px solid var(--primaryred);
   cursor: pointer;
 
@@ -434,8 +478,9 @@ nav ul li{
 .portfolio-icon{
   position: absolute;
   opacity: 0;
-  margin-left: -8rem;
-  margin-top: 2.6rem;
+  top: 4.25rem;
+  left: 50%;
+  transform: translate(-50%, -50%);
   color: var(--electricblue);
   font-size: 1.5rem;
 }
@@ -444,9 +489,6 @@ nav ul li{
   opacity: 70%;
   transition: 0.3s ease-in-out;
   cursor: pointer;
-  position : absolute;
-  top: 0.5rem;
-  left:14.5rem;
 }
 .popupbox-wrapper{
   margin-top: 5rem;
@@ -472,8 +514,19 @@ nav ul li{
 
 /******************** Media for Popupbox Box ***************************/
 @media(max-width: 768px){
+  .image-box-wrapper{
+    grid-template-columns: minmax(15rem, 1fr);
+    justify-items: center;
+  }
+
   .portfolio-image-popupbox{
     width: 100%;
+  }
+}
+
+@media(min-width: 769px) and (max-width: 1100px){
+  .image-box-wrapper{
+    grid-template-columns: repeat(2, 15rem);
   }
 }
 
@@ -642,24 +695,72 @@ textarea.form-control{
 
 /*---------------- Profiles ---------------------*/
 
-#nikhiljumbotron{
+#nikhilcontact {
   background-color: var(--primarygrey);
-  margin-top: -3.5rem;
+  padding: 1.5rem 0 0;
+  margin-bottom: 0;
 }
-#profilesheading{
+
+#profilesheading {
   text-transform: uppercase;
   color: darkcyan;
-  padding-bottom: 0rem;
+  margin: 0;
+  padding-bottom: 1rem;
 }
 
-#nikhilcontact{
-  background-color: var(--primarygrey);
-  padding-bottom: 0;
-  margin-bottom: -4rem;
+#nikhiljumbotron {
+  background-color: transparent;
+  margin: 0;
+  padding: 0 1rem 1.5rem;
 }
 
-.m-2{
-  padding: 0.75rem;
-  padding-top: 0rem;  
+.m-2 {
+  padding: 0.5rem;
   cursor: pointer;
+}
+
+.profile-icon-button {
+  width: 3.25rem;
+  height: 3.25rem;
+  padding: 0 !important;
+
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+
+  line-height: 1;
+}
+
+/* FontAwesome icons */
+.profile-icon {
+  font-size: 2rem;
+  display: block;
+}
+
+/* LeetCode SVG */
+.leetcode-icon {
+  width: 2rem;
+  height: 2rem;
+  display: block;
+}
+
+/* Small alignment tweaks */
+.profile-icon-github {
+  transform: translateY(1px);
+}
+
+.leetcode-icon {
+  transform: translateY(1px);
+}
+
+.profile-icon-button.leetcode-icon-button {
+  border-color: #f89f1b;
+  color: #101018;
+}
+
+.profile-icon-button.leetcode-icon-button:hover,
+.profile-icon-button.leetcode-icon-button:focus {
+  background-color: #f89f1b;
+  border-color: #f89f1b;
+  color: #101018;
 }

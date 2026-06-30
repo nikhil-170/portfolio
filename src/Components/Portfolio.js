@@ -112,7 +112,7 @@ const Portfolio = () => {
         <div id="portfolio"className ="portfolio-wrapper">
             <div className="container">
                 <h1 className= "text-uppercase text-center py-5">projects</h1>
-                <div className="image-box-wrapper row justify-content-center">
+                <div className="image-box-wrapper">
                     <div className="portfolio-image-box" onClick={openPopupBoxSpotify}>
                     <img className = "portfolio-image" src={spotify} alt ="spotify clone project"/>
                     <p className="paraforprojects">Spotify clone</p>

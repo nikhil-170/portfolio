@@ -12,28 +12,28 @@ const Services = () => {
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
                             <h4>Languages</h4>
-                            <p>Java<br/> Python<br/> JavaScript<br/> Kotlin<br/> SQL</p>
+                            <p>Kotlin<br/>Java<br/>Python<br/>JavaScript<br/>SQL<br/>PL/SQL</p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-                            <h4>DataBases/<br/>Frameworks</h4>
-                            <p>MySQL <br/>MongoDB<br/>MS SQL SERVER<br/>Spring Boot <br/>Express.js </p>
+                            <h4>Mobile/<br/>Backend</h4>
+                            <p>Android SDK<br/>Jetpack Compose<br/>Room<br/>SQLite<br/>Retrofit2<br/>Firebase<br/>Node.js<br/>Express.js</p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-                            <h4>Web/Mobile</h4>
-                            <p>NodeJS<br/>ReactJS<br/> HTML5<br/> CSS3<br/>AWS<br/> EC2</p>
+                            <h4>Web/<br/>Cloud</h4>
+                            <p>React.js<br/>HTML<br/>CSS<br/>Bootstrap<br/>Gradle<br/>OAuth<br/>EC2<br/>Lambda<br/>SQS/SNS<br/>CDK</p>
                         </div>
                     </div>
                     {/* -- */}
                     <div className = "col-md-3 col-sm-6">
                         <div className= "box">
-                            <h4>Other</h4>
-                            <p>Android SDK<br/> REST API<br/> Git<br/> Informatica<br/> Cognos<br/> Hive<br/> Linux/Unix</p>
+                            <h4>Tools/<br/>Concepts</h4>
+                            <p>Git<br/>Jira<br/>Confluence<br/>JUnit<br/>Mockito<br/>Postman<br/>Perfetto<br/>RESTful APIs<br/>CI/CD<br/>Agile/Scrum<br/>Prompt Engineering</p>
                         </div>
                     </div>
                 </div>
